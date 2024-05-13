@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: quay.io/kubernetes-ingress-controller/nginx-ingress-controller
+  repository: nginx/nginx-ingress
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
